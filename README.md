@@ -70,6 +70,31 @@ Accumulating interval values requires state tracking, duplicate interval protect
 
 ## Installation
 
+### HACS installation
+
+Delta Energy can be installed as a custom repository in HACS.
+
+1. Open Home Assistant.
+2. Go to **HACS → Custom repositories**.
+3. Add this repository URL:
+
+```text
+https://github.com/camel1cz/delta_energy
+```
+
+4. Select category **Integration**.
+5. Click **Add**.
+6. Find **Delta Energy** in HACS and click **Download**.
+7. Restart Home Assistant.
+
+After restart, add the integration from Home Assistant UI:
+
+```text
+Settings → Devices & services → Add integration → Delta Energy
+```
+
+### Manual installation
+
 Copy the integration directory to Home Assistant:
 
 ```text
